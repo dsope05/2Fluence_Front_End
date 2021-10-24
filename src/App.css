@@ -3,11 +3,14 @@
   padding: 30px;
   font-family: monospace;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 .App-header {
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
+  max-width: 1500px;
 }
 
 .Platforms {
@@ -28,7 +31,7 @@
   display: flex;
 }
 
-.platform-image{
+.platform-image {
   margin-left: auto;
 }
 
@@ -68,10 +71,12 @@
 
 .trending-images-wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .trending-image {
   display: flex;
+  flex-wrap: wrap;
   margin-right: 40px;
 }
 
