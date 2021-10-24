@@ -1,0 +1,104 @@
+.App {
+  background-color: #181818;
+  padding: 30px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.App-header {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.Platforms {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Platform {
+  width: 200px;
+  font-size: calc(7px + 2vmin);
+  color: #fffafa;
+  background-color: #484848;
+  padding: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-right: 10px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.platform-image{
+  margin-left: auto;
+}
+
+.platforms-title {
+  color: #fffafa;
+  margin-bottom: 20px;
+}
+
+.next-big-thing-title {
+  color: #fffafa;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.trending-title-wrapper {
+  display: flex;
+  color: #fffafa;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.trending-title {
+}
+
+.trending-buttons {
+  display: flex;
+  margin-left: auto;
+}
+
+.trending-purple {
+  color: #EE82EE;
+}
+
+.trending-right {
+  margin-left: 20px;
+}
+
+.trending-images-wrapper {
+  display: flex;
+}
+
+.trending-image {
+  display: flex;
+  margin-right: 40px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
